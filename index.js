@@ -14,6 +14,8 @@ fetch("./data/cards.json")
     generateCards();
   });
 
+
+
 function shuffleCards() {
   let currentIndex = cards.length,
     randomIndex,
@@ -43,7 +45,6 @@ function generateCards() {
     cardElement.addEventListener("click", flipCard);
 }
 }
-
 function flipCard() {
   if (lockBoard) return;
   if (this === firstCard) return;

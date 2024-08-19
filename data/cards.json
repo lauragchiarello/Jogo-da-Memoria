@@ -34,5 +34,97 @@
     {
         "image": "./assets/cenoura.png",
         "name": "cenoura"
+    },
+    {
+        "image": "./assets/cereja.png",
+        "name": "cereja"
+    },
+    {
+        "image": "./assets/cogumelo.png",
+        "name": "cogumelo"
+    },
+    {
+        "image": "./assets/couveflor.png",
+        "name": "couveflor"
+    },
+    {
+        "image": "./assets/ervilha.png",
+        "name": "ervilha"
+    },
+    {
+        "image": "./assets/goiaba.png",
+        "name": "goiaba"
+    },
+    {
+        "image": "./assets/kiwi.png",
+        "name": "kiwi"
+    },
+    {
+        "image": "./assets/laranja.png",
+        "name": "laranja"
+    },
+    {
+        "image": "./assets/limao.png",
+        "name": "limao"
+    },
+    {
+        "image": "./assets/maça.png",
+        "name": "maça"
+    },
+    {
+        "image": "./assets/mamao.png",
+        "name": "mamao"
+    },
+    {
+        "image": "./assets/manga.png",
+        "name": "manga"
+    },   
+    {
+        "image": "./assets/melancia.png",
+        "name": "melancia"
+    },   
+    {
+        "image": "./assets/mexerica.png",
+        "name": "mexerica"
+    },   
+    {
+        "image": "./assets/mirtilo.png",
+        "name": "mirtilo"
+    },   
+    {
+        "image": "./assets/morango.png",
+        "name": "morango"
+    },   
+    {
+        "image": "./assets/pepino.png",
+        "name": "pepino"
+    },   
+    {
+        "image": "./assets/pera.png",
+        "name": "pera"
+    },
+    {
+        "image": "./assets/pimentao.png",
+        "name": "pimentao"
+    },
+    {
+        "image": "./assets/rabanete.png",
+        "name": "rabanete"
+    },
+    {
+        "image": "./assets/roma.png",
+        "name": "roma"
+    },
+    {
+        "image": "./assets/tomate.png",
+        "name": "tomate"
+    },
+    {
+        "image": "./assets/uva.png",
+        "name": "uva"
+    },
+    {
+        "image": "./assets/uvaverde.png",
+        "name": "uvaverde"
     }
 ]
