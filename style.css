@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100;300;400;500;700&family=Sriracha&display=swap');
+
+*{
+  font-family: 'poppins';
+}
+
+body {
+  min-height: 100vh;
+  min-width: 100vh;
+  background-color: #cccccc;
+  color: rgb(72, 0, 228);
+}
+
+h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+}
+
+.actions button {
+    padding: 8px 16px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+}
+
+/* -- Aqui é a parte da estilização dos botões dos níveis fácil/médio/dificil
+----- colocar com JS na tela inicial antes de aparecer as cartas do jogo, pois cada nível terá quantidades
+de cartas diferentes)
+
+.niveis {
+  display: inline-block;
+  justify-content: center;
+}
+
+.niveis button {
+    padding: 8px 16px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(72, 0, 228);
+    color: white;
+    border: none;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.264);
+}
+*/
+
+.grid-container {
+  display: grid;
+  justify-content: center;
+  grid-gap: 16px;
+  grid-template-columns: repeat(6, 120px);
+  grid-template-rows: repeat(2, calc(120px / 2 * 3));
+}
+
+.card {
+  height: calc(120px / 2 * 3);
+  width: 120px;
+  border-radius: 10px;
+  background-color: white;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease-in-out;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.264);
+}
+
+.front-image {
+  width: 90px;
+  height: 90px;
+}
+
+.card.flipped {
+  transform: rotateY(180deg);
+}
+
+.front, .back {
+    backface-visibility: hidden;
+    position: absolute;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.card .front {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card .back {
+  background-image: url(assets/back.png);
+  background-position: center center;
+  background-size: cover;
+  backface-visibility: hidden;
+}
+
+.card .front {
+  transform: rotateY(180deg);
+}

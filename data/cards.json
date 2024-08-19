@@ -1,0 +1,38 @@
+[
+    {
+        "image": "../assets/abacate.png",
+        "name": "abacate"
+    },
+    {
+        "image": "../assets/abacaxi.png",
+        "name": "abacaxi"
+    },
+    {
+        "image": "../assets/banana.png",
+        "name": "banana"
+    },
+    {
+        "image": "../assets/batata.png",
+        "name": "batata"
+    },
+    {
+        "image": "../assets/berinjela.png",
+        "name": "berinjela"
+    },
+    {
+        "image": "../assets/beterraba.png",
+        "name": "beterraba"
+    },
+    {
+        "image": "../assets/brocolis.png",
+        "name": "brocolis"
+    },
+    {
+        "image": "../assets/cebola.png",
+        "name": "cebola"
+    },
+    {
+        "image": "../assets/cenoura.png",
+        "name": "cenoura"
+    }
+]
